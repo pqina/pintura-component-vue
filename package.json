@@ -1,0 +1,15 @@
+{
+  "version": "9.0.0",
+  "name": "@pqina/vue-pintura",
+  "browser": "index.js",
+  "main": "index.js",
+  "types": "vue-pintura.d.ts",
+  "description": "Pintura Image Editor Components for use with Vue 2 and 3",
+  "author": "Rik Schennink at PQINA",
+  "homepage": "https://pqina.nl/pintura/",
+  "license": "https://pqina.nl/pintura/license/",
+  "peerDependencies": {
+    "@pqina/pintura": "^8.x",
+    "vue": "2.x - 3.x"
+  }
+}
