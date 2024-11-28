@@ -31,6 +31,10 @@ export default {
 
     beforeDestroy() {
         if (!this.editor) return;
+        if (this.editor.element) {
+            // when a load error occurs the editor is still active, so need to close
+            this.editor.close();
+        }
         this.unsubs.forEach((unsub) => unsub());
         this.unsubs = [];
         this.unwatch();

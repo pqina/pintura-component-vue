@@ -1,5 +1,5 @@
 {
-    "version": "9.0.1",
+    "version": "9.0.2",
     "name": "@pqina/vue-pintura",
     "browser": "index.js",
     "main": "index.js",
